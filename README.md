@@ -68,8 +68,8 @@ HOW TO USE THIS ANALYSIS
 4. Access the Streamlit app for interactive data exploration and visualization.
 
 PROJECT LINKS
-- GitHub Repository: [Rapido Bookings Analysis](https://github.com/MallikarjunaReddy448/Rapido-Bookings-Analysis)
-- Power BI Dashboard: [Rapido Bangalore Rides](https://app.powerbi.com/view?r=eyJrIjoiZGQxNDhlOGYtZDhjOS00YjdiLTkzM2UtMjljZTM0ODRhM2EyIiwidCI6ImQ3NDEyYTBjLTU0ODAtNDMzMS1hNzRjLTVkNWZhYjk3NjQ2OSJ9)
+- GitHub Repository: [Rapido Bookings Analysis](https://github.com/MkSingh431/Rapido-Rides-Analysis)
+- Power BI Dashboard: [Rapido Bangalore Rides](https://github.com/MkSingh431/Rapido-Rides-Analysis)
 - Streamlit App: [Rapido Interactive Dashboard](https://mallikarjunareddy448-rapid-streamlit-dashboardrapido-app-lmmds4.streamlit.app/)
 
 🚀 This project provides actionable insights to optimize Rapido's operations in Bangalore. Let me know if you need any further improvements! 😊
