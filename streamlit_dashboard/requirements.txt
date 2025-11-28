@@ -1,0 +1,27 @@
+# Core Data Manipulation & Analysis
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Anomaly Detection
+scikit-learn  # Includes IsolationForest & Z-score calculations
+
+# Machine Learning & Modeling
+xgboost
+lightgbm
+scipy
+
+# Streamlit/Dash for Dashboard
+streamlit
+dash
+
+# Datetime Handling
+datetime
+
+# Modelling
+statsmodels
+prophet

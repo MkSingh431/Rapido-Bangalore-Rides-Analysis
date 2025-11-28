@@ -1,0 +1,130 @@
+Thanks for the detailed summary! Now, I'll generate **20+ business requirements** for each tool—**SQL, Python, Power BI/Tableau, and Excel**—based on the **Data Analyst Workflow** (Data Cleaning, Exploration, Analysis, and Reporting).  
+
+---
+
+## **Business Requirements for the Rapido Project**
+
+### **1. SQL Tasks (Data Extraction & Analysis)**
+#### **Basic:**
+1. Count the total number of rides and completed rides.
+2. Retrieve unique ride services (`services`) and their total ride count.
+3. Identify the most frequently used payment method.
+4. Extract rides where `ride_charge` is greater than `total_fare` (possible data error check).
+5. Find the average ride duration by service type.
+
+#### **Intermediate:**
+6. Identify the busiest day of the week for rides.
+7. Calculate total revenue per month.
+8. Find the top 5 most common source-destination pairs.
+9. Calculate the percentage of rides canceled vs. completed.
+10. Identify peak ride hours by analyzing `time` column.
+
+#### **Advanced:**
+11. Find the longest ride in terms of both **distance** and **duration**.
+12. Analyze fare pricing trends by **distance categories** (0-5km, 5-10km, etc.).
+13. Rank **source-destination** pairs by revenue using window functions.
+14. Compare revenue share of different **service types**.
+15. Create a stored procedure to fetch ride details for a given date range.
+16. Identify **low-revenue rides** (low distance, low fare).
+17. Find seasonal ride trends (compare summer vs. winter).
+18. Analyze rides with **high misc charges** (potential service issues).
+19. Detect duplicate ride IDs if any.
+20. Create a **revenue forecasting table** using historical ride data.
+
+---
+
+### **2. Python Tasks (Data Cleaning & Predictive Analysis)**
+#### **Basic:**
+1. Load the dataset and check for missing values.
+2. Convert `date` and `time` columns into **proper datetime format**.
+3. Identify most common ride sources and destinations.
+4. Compute basic ride statistics (mean, median, std of fare, duration, distance).
+5. Create a histogram of ride durations.
+
+#### **Intermediate:**
+6. Identify and handle outliers in `total_fare` and `duration`.
+7. Analyze **customer behavior trends** (frequent source-destination pairs).
+8. Perform correlation analysis between **distance, duration, and total fare**.
+9. Generate a **time-series plot** for daily revenue trends.
+10. Compare ride patterns between weekdays and weekends.
+
+#### **Advanced:**
+11. Build a **predictive model** for estimating `total_fare` based on distance, duration, and service type.
+12. Use clustering (K-Means) to classify source and destination hubs.
+13. Detect anomalies in ride pricing using **Isolation Forest or Z-score analysis**.
+14. Create a **ride cancellation prediction model** based on past trends.
+15. Develop an interactive dashboard using **Streamlit or Dash**.
+16. Perform **seasonal decomposition** to analyze ride trends over time.
+17. Use NLP (if user reviews exist) to analyze customer feedback.
+18. Build a **customer segmentation model** based on ride patterns.
+19. Automate data reporting using Python and schedule reports.
+20. Forecast future revenue using **ARIMA or Prophet models**.
+
+---
+
+### **3. Tableau/Power BI Tasks (Dashboard & Visualizations)**
+#### **Basic:**
+1. Create a **bar chart** showing revenue by service type.
+2. Develop a **pie chart** for ride status distribution.
+3. Visualize **payment method usage** with a **donut chart**.
+4. Create a **heatmap** for source-destination ride frequency.
+5. Build a **line chart** for monthly revenue trends.
+
+#### **Intermediate:**
+6. Develop a **dual-axis chart** comparing daily ride counts vs. revenue.
+7. Create a **geographical heatmap** showing ride demand across cities.
+8. Implement a **ride cancellation rate dashboard**.
+9. Build a **filterable KPI dashboard** (total rides, revenue, cancellations).
+10. Create a **scatter plot** for distance vs. total fare.
+
+#### **Advanced:**
+11. Build a **dynamic dashboard** with a **time selection parameter** (daily, monthly, yearly).
+12. Use **Level of Detail (LOD) calculations** to compare **revenue per ride**.
+13. Create a **Sankey diagram** for source-to-destination analysis.
+14. Develop a **profitability forecast** using Power BI's forecasting tools.
+15. Use clustering in Tableau to identify high-demand areas.
+16. Create an **advanced ride fare comparison dashboard** (by service type, region, etc.).
+17. Implement a **drill-down feature** for analyzing individual rides.
+18. Use **trend lines** and moving averages for revenue analysis.
+19. Develop an **interactive parameter-based report** in Power BI.
+20. Apply **AI-driven insights in Power BI** to detect anomalies in ride data.
+
+---
+
+### **4. Excel Tasks (Data Cleaning, Reporting & Analysis)**
+#### **Basic:**
+1. Use conditional formatting to highlight **high fare rides**.
+2. Create a pivot table to summarize **total revenue by service type**.
+3. Calculate **average ride duration** using Excel functions.
+4. Extract day, month, and year from the `date` column using `TEXT()` function.
+5. Filter **only completed rides** using an advanced filter.
+
+#### **Intermediate:**
+6. Create a **dynamic dashboard** using pivot tables & slicers.
+7. Use **Power Query** to clean and transform raw ride data.
+8. Generate **trend analysis** charts (monthly revenue).
+9. Build a **VLOOKUP/XLOOKUP** based pricing table.
+10. Automate data entry using **Excel Macros**.
+
+#### **Advanced:**
+11. Use **INDEX-MATCH** to fetch fare details dynamically.
+12. Apply **Data Validation** to create dropdown selections.
+13. Develop an **interactive Power Pivot dashboard**.
+14. Create a **rolling average analysis** for ride demand.
+15. Forecast future revenue using **Excel’s Forecast function**.
+16. Implement **What-If Analysis** for ride pricing adjustments.
+17. Develop an **Excel-based ride profitability calculator**.
+18. Use **Solver Add-in** for optimizing ride pricing strategies.
+19. Build a macro to **automate data updates from CSV files**.
+20. Connect **Excel to Power BI** for live data analysis.
+
+---
+
+### **Summary**
+Each tool follows a structured **Data Analyst Workflow**:
+1. **SQL**: Data extraction, transformation, and reporting.
+2. **Python**: Cleaning, exploration, predictive modeling.
+3. **Power BI/Tableau**: Interactive dashboards & business intelligence.
+4. **Excel**: Quick analysis, reporting, and automation.
+
+These 20+ tasks per tool will help you **master data analysis for the Rapido project**. Let me know if you need any refinements! 🚀
